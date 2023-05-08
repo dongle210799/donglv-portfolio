@@ -1,0 +1,11 @@
+.bullet::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(100 116 139);
+  border: 2px solid rgb(16 185 129);
+  border-radius: 50%;
+  height: 9px;
+  left: -4px;
+  width: 9px;
+  z-index: 10;
+}

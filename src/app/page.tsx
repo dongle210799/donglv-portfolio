@@ -1,9 +1,13 @@
-import Image from "next/image";
+
+import Header from "../components/header";
+import About from "../modules/about";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>Donglv app</div>
+    <main className="bg-slate-500 min-h-screen">
+      <Header />
+      <div className="h-[300px]"></div>
+      <About />
     </main>
   );
 }
